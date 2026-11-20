@@ -9,10 +9,8 @@ TMHFix
   <img src="[https://img.shields.io/badge/PYTHON-REQUIRED-3776AB?style=for-the-badge&logo=python&logoColor=white](https://img.shields.io/badge/PYTHON-REQUIRED-3776AB?style=for-the-badge&logo=python&logoColor=white)" />
   <img src="[https://img.shields.io/badge/PROCESSING-LOCAL-00A86B?style=for-the-badge](https://img.shields.io/badge/PROCESSING-LOCAL-00A86B?style=for-the-badge)" />
 </p><p align="center">
-  <strong>APK REPAIR · RECOVERY · LOCAL PROCESSING</strong>
-</p>
-
----
+  **APK REPAIR · RECOVERY · LOCAL PROCESSING**
+</p>---
 
 INSTALL
 
