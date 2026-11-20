@@ -1,45 +1,34 @@
 TMHFix
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=28&pause=1000&color=00C8FF&center=true&vCenter=true&width=600&lines=TMHFix;APK+Repair+%26+Recovery;100%25+Local+Processing" alt="TMHFix Animated Title" />
+  <img src="https://capsule-render.vercel.app/api?type=venom&height=180&color=0:050816,50:073B5C,100:00C8FF&text=TMHFix&fontColor=FFFFFF&fontSize=65&fontAlignY=50&animation=fadeIn&stroke=00C8FF&strokeWidth=1" width="100%" />
 </p><p align="center">
-  <img src="https://img.shields.io/badge/Platform-Android%20%7C%20Termux-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Processing-Local-success?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Python-Required-yellow?style=for-the-badge" />
-</p>TMHFix is a local APK repair and recovery tool designed to detect and fix APK-related problems.
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=2800&pause=900&color=00C8FF&center=true&vCenter=true&width=550&lines=APK+REPAIR+%26+RECOVERY;LOCAL+PROCESSING+ENGINE;BUILT+FOR+ANDROID+%7C+TERMUX" />
+</p><p align="center">
+  <img src="https://img.shields.io/badge/TMH-MOD-00C8FF?style=for-the-badge&labelColor=050816" />
+  <img src="https://img.shields.io/badge/Python-Required-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Processing-LOCAL-00A86B?style=for-the-badge" />
+</p><p align="center">
+  **APK FIXER · RECOVERY · LOCAL PROCESSING**
+</p>---
 
-Quick Setup
+INSTALL
 
-Copy and run this single command in Termux:
+Run this single command in Termux:
 
-python -c "import os,sys,subprocess,urllib.request; b='https://raw.githubusercontent.com/SRCTMH/tmhfix/main/'; [(urllib.request.urlretrieve(b+f.replace('@','%40'),f)) for f in ('main.py','@TMHMOD')]; r=subprocess.run(['pkg','install','-y','python-cryptography']) if 'com.termux' in os.environ.get('PREFIX','') else None; subprocess.check_call([sys.executable,'-m','pip','install','cryptography']) if r is None or r.returncode else None; subprocess.check_call([sys.executable,'main.py'])"
+python -c "import os,sys,subprocess,urllib.request; b='https://raw.githubusercontent.com/SRCTMH/tmhfix/main/'; [(urllib.request.urlretrieve(b+f,f)) for f in ('main.py','@TMHMOD')]; subprocess.run(['pkg','install','-y','python-cryptography'],check=True) if 'com.termux' in os.environ.get('PREFIX','') else subprocess.check_call([sys.executable,'-m','pip','install','cryptography']); subprocess.check_call([sys.executable,'main.py'])"
 
-The setup automatically downloads both required files, installs the cryptography dependency and starts the installer.
+RUN
 
-After Setup
+After setup, launch TMHFix anytime with:
 
 tmhfix
-
-Enter the APK path and start the repair process.
-
-Features
-
-- APK problem detection and recovery
-- Local processing — no APK upload
-- Original APK remains unchanged
-- Repaired APK saved next to the original
-- Archive-based module loading
-
-Project Files
-
-File| Purpose
-"main.py"| Main entry point and setup
-"@TMHMOD"| Compiled repair modules
 
 ---
 
 <p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:00C8FF,100:050816&section=footer" width="100%" />
   **TMH MOD**
   <br/>
-  <sub>Simple • Local • Reliable</sub>
+  <sub>ENGINEERED FOR LOCAL APK REPAIR</sub>
 </p>
